@@ -1,0 +1,97 @@
+
+body{
+    display: grid;
+    background-color: #f9f9f9;
+}
+
+.cardShadow{
+    box-shadow: 0 2px 10px rgba(0,0, 0,0.2);
+}
+.imgStyle1{
+    margin-top: 50px;
+}
+.style1{
+    margin-top: 86px;
+}
+.secondRow{
+    margin-top: 86px;
+    margin-bottom: 165px;
+}
+.heading{
+    margin-top: 100px;
+    
+}
+
+h1{
+    margin-left: 170px;
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: #707070;
+}
+.details{
+    margin-left: 70px;
+}
+#bottomP{
+   margin-top: 56px;
+}
+
+.leftHover{
+    width: 100%;
+    box-shadow:inset 0 0 0 0 #fff;
+    transition: ease-out 0.3s;
+  
+}
+.leftHover:hover{
+  text-decoration: none;
+  color: white;
+  box-shadow:inset 400px 0 0 0 #db0029;
+}
+
+.cardShadow{
+    width: 100%;
+    background: radial-gradient(50% , 100%);
+    overflow: hidden;
+    position: relative;
+    
+    
+}
+.cardShadow:hover .card-body{
+    box-shadow: inset 380px 0 0 0 #db0029 !important;
+}
+
+.cardShadow > img{
+    transform: scale(1);
+    transition: all 0.3s ease-out;
+    display: block;
+}
+
+.cardShadow:hover img{
+    transform: scale(1.1) translateY(-15px);
+    opacity: 03;
+    
+} 
+a{
+    text-decoration: none;
+    color: black;
+}
+.cardShadow:hover h3{
+    opacity: 0.9;
+}
+h3{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color:#db0029 ;
+    color: white;
+    position: absolute;
+    left: 45%;
+    bottom: 50%;
+    text-align: center;
+    opacity: 0;
+    
+}
